@@ -1,0 +1,46 @@
+{
+  "name": "lucia-dynamodb-adapter",
+  "version": "1.0.0",
+  "description": "An easy to set up adapter allowing you to use DynamoDB with the 'lucia-auth' library (v3). ",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnk-softworks/lucia-dynamodb-adapter.git"
+  },
+  "keywords": [
+    "lucia",
+    "adapter",
+    "lucia-auth",
+    "dynamo",
+    "dynamodb",
+    "lucia-dynamo",
+    "lucia dynamo",
+    "lucia-dynamodb",
+    "lucia dynamodb",
+    "lucia-adapter",
+    "lucia adapter"
+  ],
+  "author": "Kawba",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/gnk-softworks/lucia-dynamodb-adapter/issues"
+  },
+  "homepage": "https://github.com/gnk-softworks/lucia-dynamodb-adapter#readme",
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.592.0",
+    "@aws-sdk/lib-dynamodb": "^3.592.0",
+    "@aws-sdk/util-dynamodb": "^3.592.0",
+    "lucia": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
