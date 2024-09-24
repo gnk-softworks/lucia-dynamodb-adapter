@@ -5,8 +5,7 @@ import {
     type RegisteredDatabaseSessionAttributes,
     UserId
 } from 'lucia';
-import {DeleteItemCommand, DynamoDBClient, GetItemCommand, PutItemCommand} from '@aws-sdk/client-dynamodb';
-import {QueryCommand} from '@aws-sdk/lib-dynamodb';
+import {DeleteItemCommand, DynamoDBClient, GetItemCommand, PutItemCommand, QueryCommand} from '@aws-sdk/client-dynamodb';
 import {marshall, unmarshall} from '@aws-sdk/util-dynamodb';
 
 interface DynamoDBSession {
