@@ -1,6 +1,18 @@
 # lucia-dynamodb-adapter
 An easy to set up adapter allowing you to use DynamoDB with the 'lucia-auth' library (v3). 
 
+
+## Deprecation Notice
+> It has been announced that the lucia auth library will be deprecated. As such as of 26/10/2024 this adapter will no longer be maintained. 
+> 
+> The package will remain as is for anybody already using it and the code is under a cc0 license so if anybody wants to create something new or apply fixes into the future and release that they can.
+> 
+> For a replacement to Lucia we recommend switching to [Narvik](https://narvik-auth.com/) ([npm link](https://www.npmjs.com/package/narvik)). 
+
+
+
+
+
 ## Installation
 ```bash
 npm install --save lucia-dynamodb-adapter
