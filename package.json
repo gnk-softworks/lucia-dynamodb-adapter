@@ -1,6 +1,6 @@
 {
   "name": "lucia-dynamodb-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to set up adapter allowing you to use DynamoDB with the 'lucia-auth' library (v3). ",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
